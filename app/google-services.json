@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "866931103825",
+    "firebase_url": "https://appcall-f0890.firebaseio.com",
+    "project_id": "appcall-f0890",
+    "storage_bucket": "appcall-f0890.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866931103825:android:8e7781c87fa533171d0070",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866931103825-iqbaoiauda4fljqh105lg3t5j7l69lil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXYjzqvHyejIPz4eRhTg6Y0Q8wqI2iVGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866931103825-iqbaoiauda4fljqh105lg3t5j7l69lil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

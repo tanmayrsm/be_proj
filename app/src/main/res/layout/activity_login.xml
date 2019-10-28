@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:padding="30dp">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_centerInParent="true"
+        android:inputType="textEmailAddress"
+        android:text="r@email.com"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:text="password"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:id="@+id/submit"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Login"
+        android:onClick="login"
+        android:textAllCaps="false"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/submit"
+        android:text="New user ? signup"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="250dp"
+        android:id="@+id/new_user"/>
+</RelativeLayout>
